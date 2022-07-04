@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="jod_sale_tax_0_jordan" model="account.tax.template">
+        <field name="name">VAT 0% </field>
+        <field name="type_tax_use">sale</field>
+        <field name="amount">0</field>
+        <field name="amount_type">percent</field>
+        <field name="description">VAT 0%</field>
+        <field name="tax_group_id" ref="jo_tax_group_0"/>
+        <field name="chart_template_id" ref="jordan_chart_template_standard"/>
+    </record>
+
+    <record id="jod_sale_tax_2_jordan" model="account.tax.template">
+        <field name="name">VAT 2% </field>
+        <field name="type_tax_use">sale</field>
+        <field name="amount">2</field>
+        <field name="amount_type">percent</field>
+        <field name="description">VAT 2%</field>
+        <field name="tax_group_id" ref="jo_tax_group_2_exempted"/>
+        <field name="chart_template_id" ref="jordan_chart_template_standard"/>
+    </record>
+     <record id="jod_sale_tax_4_jordan" model="account.tax.template">
+        <field name="name">VAT 4% </field>
+        <field name="type_tax_use">sale</field>
+        <field name="amount">4</field>
+        <field name="amount_type">percent</field>
+        <field name="description">VAT 4%</field>
+        <field name="tax_group_id" ref="jo_tax_group_4_exempted"/>
+        <field name="chart_template_id" ref="jordan_chart_template_standard"/>
+    </record>
+
+     <record id="jod_sale_tax_5_jordan" model="account.tax.template">
+        <field name="name">VAT 5% </field>
+        <field name="type_tax_use">sale</field>
+        <field name="amount">5</field>
+        <field name="amount_type">percent</field>
+        <field name="description">VAT 5%</field>
+        <field name="tax_group_id" ref="jo_tax_group_5_exempted"/>
+        <field name="chart_template_id" ref="jordan_chart_template_standard"/>
+    </record>
+
+     <record id="jod_sale_tax_10_jordan" model="account.tax.template">
+        <field name="name">VAT 10% </field>
+        <field name="type_tax_use">sale</field>
+        <field name="amount">10</field>
+        <field name="amount_type">percent</field>
+        <field name="description">VAT 10%</field>
+        <field name="tax_group_id" ref="jo_tax_group_10_exempted"/>
+        <field name="chart_template_id" ref="jordan_chart_template_standard"/>
+    </record>
+    <record id="jod_sale_tax_11_jordan" model="account.tax.template">
+        <field name="name">VAT 11% </field>
+        <field name="type_tax_use">sale</field>
+        <field name="amount">11</field>
+        <field name="amount_type">percent</field>
+        <field name="description">VAT 11%</field>
+        <field name="tax_group_id" ref="jo_tax_group_11_exempted"/>
+        <field name="chart_template_id" ref="jordan_chart_template_standard"/>
+    </record>
+
+    <record id="jod_sale_tax_16_jordan" model="account.tax.template">
+        <field name="name">VAT 16% </field>
+        <field name="type_tax_use">sale</field>
+        <field name="amount">16</field>
+        <field name="amount_type">percent</field>
+        <field name="description">VAT 16%</field>
+        <field name="tax_group_id" ref="jo_tax_group_16_exempted"/>
+        <field name="chart_template_id" ref="jordan_chart_template_standard"/>
+    </record>
+</odoo>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <menuitem id="account_reports_jo_statements_menu" name="JOD" parent="account.menu_finance_reports" sequence="0" groups="account.group_account_readonly"/>
+
+     <record id="jordan_chart_template_standard" model="account.chart.template">
+         <field name="name">Jordan Chart of Accounts - Standard</field>
+         <field name="code_digits">6</field>
+         <field name="bank_account_code_prefix">1212</field>
+         <field name="cash_account_code_prefix">1211</field>
+         <field name="transfer_account_code_prefix">121210</field>
+         <field name="currency_id" ref="base.JOD" />
+         <field name="country_id" ref="base.jo"/>
+         <field name="complete_tax_set" eval="True"/>
+     </record>
+</odoo>
